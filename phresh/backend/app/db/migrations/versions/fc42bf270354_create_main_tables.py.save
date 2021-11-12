@@ -1,0 +1,17 @@
+fc42bf270354_create_main_tables"""create_main_tables
+Revision ID: fc42bf270354
+Revises: 
+Create Date: 2021-11-11 16:36:38.810273
+"""
+from alembic import op
+import sqlalchemy as sa
+
+# revision identifiers, used by Alembic
+revision = 'fc42bf270354'
+down_revision = None
+branch_labels = None
+depends_on = None
+def upgrade() -> None:
+    pass
+def downgrade() -> None:
+    pass
